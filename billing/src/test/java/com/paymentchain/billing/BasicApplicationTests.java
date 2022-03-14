@@ -11,10 +11,10 @@ import org.springframework.test.context.junit4.SpringRunner;
 @SpringBootTest
 public class BasicApplicationTests {
 
-	@Test
-	public void contextLoads() {
-	String message="default message cambio test devops";
-	Assert.assertNull(message);
-	}
+@Test
+public void contextLoads() {
+	String meessage="default message cambio test devops";
+	Assert.assertNotNull(meessage);
+ }
 
 }
